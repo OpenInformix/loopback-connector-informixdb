@@ -1,0 +1,52 @@
+{
+  "name": "loopback-connector-informixdb",
+  "version": "2.2.0",
+  "description": "Native LoopBack Connector for Informix Database (SQLI protocol)",
+  "engines": {
+    "node": ">=6"
+  },
+  "keywords": [
+    "IBM",
+    "StrongLoop",
+    "LoopBack",
+    "Informix",
+    "Informixdb",
+    "node-informixdb",
+    "HCL",
+    "DataSource",
+    "Connector"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha --timeout 5000 --require test/init.js",
+    "posttest": "npm run lint"
+  },
+  "dependencies": {
+    "async": "^1.5.0",
+    "debug": "^3.1.0",
+    "loopback-connector": "^4.0.0",
+    "loopback-informixdb": "1.0.0",
+    "strong-globalize": "^4.1.1"
+  },
+  "devDependencies": {
+    "bluebird": "^2.9.9",
+    "eslint": "^4.0.0",
+    "eslint-config-loopback": "^10.0.0",
+    "loopback-datasource-juggler": "^3.0.0",
+    "mocha": "^4.0.0",
+    "rc": "^1.2.8",
+    "should": "^8.1.1",
+    "sinon": "^1.17.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/OpenInformix/loopback-connector-informixdb.git"
+  },
+  "homepage": "https://github.com/OpenInformix/loopback-connector-informixdb",
+  "bugs": {
+    "url": "https://github.com/OpenInformix/loopback-connector-informixdb/issues"
+  },
+  "license": "SEE LICENSE IN LICENSE",
+  "author": "Rohit Pandey"
+}
